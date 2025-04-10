@@ -1,18 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getBookById } from '@/lib/books';
 
-type Props = {
-  params: {
-    id: string;
-  };
-};
-
 export async function GET(
   _request: NextRequest,
-  { params }: Props
+  { params }: { params: { id: string } }
 ) {
   try {
-    const book = await getBookById(params.id);
+    const { id } = await params;
+    const book = await getBookById(id);
 
     if (!book) {
       return NextResponse.json({ message: 'Book not found' }, { status: 404 });
