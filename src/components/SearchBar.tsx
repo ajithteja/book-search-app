@@ -1,6 +1,6 @@
 'use client';
 
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 
 export default function SearchBar({
@@ -11,7 +11,7 @@ export default function SearchBar({
   const [query, setQuery] = useState(initialQuery);
   // const [isSearching, setIsSearching] = useState(false);
   const router = useRouter();
-  const searchParams = useSearchParams();
+  // const searchParams = useSearchParams();
 
   // Reset isSearching when query param changes (after search completes)
   // useEffect(() => {
