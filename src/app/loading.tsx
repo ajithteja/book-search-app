@@ -1,4 +1,3 @@
-import BookDetailsSkeleton from '@/components/BookDetailsSkeleton';
 import BookSkeleton from '@/components/BookSkeleton';
 import React from 'react';
 

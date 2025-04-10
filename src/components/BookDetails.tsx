@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Book } from '@/types/book';
-import BookDetailsSkeleton from './BookDetailsSkeleton';
 
 interface BookDetailsProps {
   book: Book;
