@@ -3,10 +3,10 @@ import { getBookById } from '@/lib/books';
 
 export async function GET(
   _request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const { id } = await params;
+    const id = (await params).id;
     const book = await getBookById(id);
 
     if (!book) {
