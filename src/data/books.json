@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "title": "tom and jerry",
+    "author": "Whoopi Goldberg",
+    "description": "Tom and Jerry is an American animated media franchise and series of comedy short films created in 1940 by William Hanna and Joseph Barbera. Best known for its 161 theatrical short films by Metro-Goldwyn-Mayer, the series centers on the enmity between the titular characters of a cat named Tom and a mouse named Jerry. Many shorts also feature several recurring characters.",
+    "imageUrl": "/uploads/1744286615845-download.jpeg"
+  },
+  {
+    "id": "2",
+    "title": "Mickey Mouse",
+    "author": "Walt Disney",
+    "description": "Mickey Mouse is an American cartoon character co-created in 1928 by Walt Disney and Ub Iwerks. The longtime icon and mascot of the Walt Disney Company, Mickey is an anthropomorphic mouse who typically wears red shorts, large shoes, and white gloves. He is often depicted with a cast of characters including his girlfriend Minnie Mouse, his pet dog Pluto, his best friends Donald Duck and Goofy, and his nemesis Pete.",
+    "imageUrl": "/uploads/1744287137665-download (1).jpeg"
+  }
+]
