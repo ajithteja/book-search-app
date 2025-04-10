@@ -7,7 +7,7 @@ import { getBooks } from '@/lib/books';
 export default async function Home({
   searchParams,
 }: {
-  searchParams: { query?: string; page?: string };
+  searchParams: Promise<{ query?: string; page?: string }>;
 }) {
   const resolvedSearchParams = await searchParams;
 
