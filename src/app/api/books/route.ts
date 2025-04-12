@@ -28,3 +28,9 @@ export async function POST(request: NextRequest) {
   const newBook = await createBook(title, author, description, file);
   return NextResponse.json({ book: newBook }, { status: 201 });
 }
+
+export const config = {
+  api: {
+    bodyParser: false,
+  },
+};
