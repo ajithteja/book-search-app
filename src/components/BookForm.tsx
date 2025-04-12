@@ -43,6 +43,7 @@ export default function BookForm() {
         //   'Content-Type': 'multipart/form-data',
         // },
         body: formData,
+        cache: 'no-store',
       });
       if (response.ok) {
         router.push('/');
